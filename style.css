@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background-color: gray;
+}
+
+label {
+    /* display one line after other */
+    display: block; 
+    padding: 0.5rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#buy {
+    background-color: lightgray;
+    padding: 0.5rem;
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+#quantity {
+    background-color: lightgray;
+    padding: 0.5rem;
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+#sell {
+    background-color: lightgray;
+    padding: 0.5rem;
+    border: 2px solid black;
+    font-weight: 500;
+}
+
+#calculate-btn{
+    width: 12%;
+    padding: 0.5rem;
+    font-size: xx-large;
+    border: 4px solid black;
+    color: grey;
+    background-color: lightgray;
+}
+
+#clear-btn{
+    width: 10%;
+    padding: 0.5rem;
+    font-size: xx-large;
+    border: 4px solid black;
+    color: grey;
+    background-color: lightgray;
+    margin-left: 2rem;
+}
+
+#output {
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}

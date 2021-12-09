@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Purchase: Profit or Loss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Let's find whether you made a profit or a loss in your trade!</h1>
+
+    <label for="buy">Buying Price: 
+        <input id="buy" type="number" placeholder="enter buying price" style="margin-left: 0.5rem;" />
+    </label>
+    
+
+    <label for="quantity">Quantity: 
+        <input id="quantity" type="number" placeholder="enter number of stocks" style="margin-left: 3rem;" />
+    </label>
+
+    <label for="sell">Current Price: 
+        <input id="sell" type="number" placeholder="enter current price" /> 
+    </label>
+    
+
+    <button id="calculate-btn" style="margin-bottom: 1rem; margin-top: 1rem;">Calculate</button>
+    <button id="clear-btn">Clear</button>
+
+    <div id="output"></div>
+
+    <script src="/app.js"></script>
+</body>
+</html>
